@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Formulario</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/88/88450.png" type="image/x-icon">
+</head>
+<body>
+    <h2 style="color: #3b1b43;">Formulario</h2>
+    <p>Por favor, complete los siguientes campos:</p>
+    <fieldset style="width: 300px; border: solid #3b1b43; background-color: #e2d8e4;">
+        <legend>DATOS</legend>
+        <form action="">
+            <label for="GET-name">Nombre:</label>
+            <input maxlength="30" id="GET-name" type="text" placeholder="Nombre" name="name" required>
+            <br>
+            <br>
+            <label for="GET-lastname">Apellido:</label>
+            <input maxlength="50" id="GET-lastname" type="text" name="lastname" placeholder="Apellido" required>
+            <br>
+            <br>
+            <label for="GET-image">Imagen/Foto:</label>
+            <input id="GET-image" type="file" accept="image/jpeg" name="image">
+            <br>
+            <br>
+            <label for="GET-birthday">Fecha de Nacimiento:</label>
+            <input id="GET-birthday" type="date" name="birthday" required>
+            <br>
+            <br>
+            <label for="GET-email">Correo Electrónico</label>
+            <input id="GET-email" type="email" name="email" placeholder="ejemplo@ejemplo.com" required>
+            <br>
+            <br>
+            <label for="GET-number">Teléfono:</label>
+            <input id="GET-number" type="text" name="number" placeholder="04XX XXX XXXX" required>
+            <br>
+            <br>
+            <label for="GET-color">Color favorito:</label>
+            <input id="GET-color" type="color" name="color">
+            <br>
+            <br>
+            <label for="GET-web">Sitio Web</label>
+            <input id="GET-web" type="url" name="web" placeholder="ejemplo.com">
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </form>
+    </fieldset>
+</body>
+</html>
